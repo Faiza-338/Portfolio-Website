@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <title>Contact</title>
+  </head>
+  <body class="bg-slate-950">
+    <!-- navbar -->
+    <nav
+      class="sticky top-0 z-50 text-slate-200 glass border-b border-blue-500/30"
+    >
+      <div
+        class="flex flex-col md:flex-row max-w-7xl mx-auto items-center justify-between gap-4 px-6 py-4"
+      >
+        <a href="index.html" class="text-2xl font-extrabold">Faiza</a>
+        <div class="flex flex-wrap justify-center gap-5 text-sm font-semibold">
+          <a href="index.html" class="hover:text-blue-400">Home</a>
+          <a href="about.html" class="hover:text-blue-400">About</a>
+          <a href="portfolio.html" class="hover:text-blue-400">Portfolio</a>
+          <a href="services.html" class="hover:text-blue-400">Services</a>
+          <a href="contact.html" class="hover:text-blue-400">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- header -->
+    <div class="hero bg-slate-800">
+      <div class="hero-content text-center">
+        <div class="max-w-md">
+          <p class="text-sm text-blue-400 mt-3">Contact Page</p>
+          <h1 class="text-5xl font-bold text-white mt-3">Contact Me</h1>
+          <p class="py-6 text-slate-300">
+            Direct contact information, form, and map section.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  <section class="max-w-7xl mx-auto px-6 py-20 grid lg:grid-cols-2 gap-10">
+      <div class="space-y-6">
+        <div class="bg-slate-900 p-8 rounded-3xl border border-blue-500/30">
+          <h2 class="text-2xl font-bold text-white">
+            Direct Contact Information
+          </h2>
+          <p class="mt-5 text-slate-300">Phone: +880 1768645266</p>
+          <p class="text-slate-300">Email: faizakhandoker2021@gmail.com</p>
+          <p class="text-slate-300">
+            LinkedIn: linkedin.com/in/faiza-khandoker
+          </p>
+          <p class="text-slate-300">Location: Dhaka, Bangladesh</p>
+        </div>
+        <div class="bg-slate-900 p-8 rounded-3xl border border-blue-500/30">
+          <h2 class="text-2xl font-bold text-white mb-4">Google Map</h2>
+          <iframe
+            src="https://www.google.com/maps?q=Dhaka,Bangladesh&output=embed"
+            width="100%"
+            height="300"
+            class="rounded-2xl border border-blue-500/30"
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+      <form
+        class="bg-slate-900 p-8 rounded-3xl border border-blue-500/30 space-y-5"
+      >
+        <h2 class="text-2xl font-bold text-white">Send a Message</h2>
+        <div>
+          <label class="text-blue-300">Name</label
+          ><input
+            type="text"
+            placeholder="Your name"
+            class="mt-2 w-full p-3 rounded-xl bg-slate-950 border border-blue-500/30 outline-none focus:border-blue-400"
+          />
+        </div>
+        <div>
+          <label class="text-blue-300">Email</label
+          ><input
+            type="email"
+            placeholder="Your email"
+            class="mt-2 w-full p-3 rounded-xl bg-slate-950 border border-blue-500/30 outline-none focus:border-blue-400"
+          />
+        </div>
+        <div>
+          <label class="text-blue-300">Phone</label
+          ><input
+            type="tel"
+            placeholder="Your phone"
+            class="mt-2 w-full p-3 rounded-xl bg-slate-950 border border-blue-500/30 outline-none focus:border-blue-400"
+          />
+        </div>
+        <div>
+          <label class="text-blue-300">Address</label
+          ><input
+            type="text"
+            placeholder="Your address"
+            class="mt-2 w-full p-3 rounded-xl bg-slate-950 border border-blue-500/30 outline-none focus:border-blue-400"
+          />
+        </div>
+        <div>
+          <label class="text-white">Message</label
+          ><textarea
+            rows="5"
+            placeholder="Your message"
+            class="mt-2 w-full p-3 rounded-xl bg-slate-950 border border-blue-500/30 outline-none focus:border-blue-400"
+          ></textarea>
+        </div>
+        <button
+          type="submit"
+          class="bg-blue-500 hover:bg-blue-400 text-white px-7 py-3 rounded-full font-bold"
+        >
+          Send Message
+        </button>
+        <p class="text-sm text-white mt-3">
+          Form validation will be added later with JavaScript.
+        </p>
+      </form>
+    </section>
+    <footer
+      class="bg-black border-t border-blue-500/30 py-8 text-center text-slate-400"
+    >
+      <p>© 2026 Faiza Khandoker Fama. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>  
+</body>
