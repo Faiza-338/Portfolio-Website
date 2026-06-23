@@ -1,294 +1,265 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-    
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+
     <title>My Portfolio</title>
-</head>
-<body>
-    <nav class="bg-base-100 shadow-sm">
-        <div class="navbar  container mx-auto">
-  <div class="navbar-start">
-    <div class="dropdown">
-      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+  </head>
+  <body class="bg-slate-950 text-slate-200">
+    <nav
+      class="sticky top-0 z-50 text-slate-200 glass border-b border-blue-500/30"
+    >
+      <div
+        class="flex flex-col md:flex-row max-w-7xl mx-auto items-center justify-between gap-4 px-6 py-4"
+      >
+        <a href="index.html" class="text-2xl font-extrabold">Faiza</a>
+        <div class="flex flex-wrap justify-center gap-5 text-sm font-semibold">
+          <a href="index.html" class="hover:text-blue-400">Home</a>
+          <a href="about.html" class="hover:text-blue-400">About</a>
+          <a href="portfolio.html" class="hover:text-blue-400">Portfolio</a>
+          <a href="services.html" class="hover:text-blue-400">Services</a>
+          <a href="contact.html" class="hover:text-blue-400">Contact</a>
+        </div>
       </div>
-      <ul
-        tabindex="-1"
-        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li><a href="home.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-    <a class="btn btn-ghost text-xl">Faixa</a>
-  </div>
-
-  <div class="navbar-center hidden lg:flex">
-    <ul class="menu menu-horizontal px-1">
-      <li><a href="home.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      
-    </ul>
-  </div>
-  <div class="navbar-end">
-    <a href="#hireme" class="btn">Hire Me</a>
-  </div>
-</div>
     </nav>
-    <main><div class="carousel w-full">
-  <div id="slide1" class="carousel-item relative w-full h-[600px]">
-    <img
-      src="https://i.pinimg.com/736x/22/bc/8e/22bc8ebef610eb881071e1a7007a7a80.jpg"
-      class="w-full" />
-    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-      <a href="#slide4" class="btn btn-circle">❮</a>
-      <a href="#slide2" class="btn btn-circle">❯</a>
-    </div>
-  </div>
-  <div id="slide2" class="carousel-item relative w-full h-[600px]">
-    <img
-      src="https://i.pinimg.com/736x/4d/c4/6d/4dc46d4b3dd1cd8c952646f09e7aed79.jpg"
-      class="w-full" />
-    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-      <a href="#slide1" class="btn btn-circle">❮</a>
-      <a href="#slide3" class="btn btn-circle">❯</a>
-    </div>
-  </div>
-  <div id="slide3" class="carousel-item relative w-full h-[600px]">
-    <img
-      src="https://i.pinimg.com/736x/68/aa/61/68aa613db13accf414562a2ec1fd72d7.jpg"
-      class="w-full" />
-    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-      <a href="#slide2" class="btn btn-circle">❮</a>
-      <a href="#slide4" class="btn btn-circle">❯</a>
-    </div>
-  </div>
-  <div id="slide4" class="carousel-item relative w-full h-[600px]">
-    <img
-      src="https://i.pinimg.com/736x/a2/8c/6e/a28c6ef8f3b2a5c04f98ae726b7cadd8.jpg"
-      class="w-full" />
-    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-      <a href="#slide3" class="btn btn-circle">❮</a>
-      <a href="#slide1" class="btn btn-circle">❯</a>
-    </div>
-  </div>
-</div>
-  
- <section>
-    <div class="container mx-auto my-10">
-    <div class="grid lg:grid-cols-2 items-center w-full max-w-7xl mx-auto px-16 gap-16">
 
-        <!-- Left -->
-        <div class="flex-1">
-            <img
+  
+
+    <main>
+      <div class="carousel w-full">
+        <div id="slide1" class="carousel-item relative w-full h-[600px]">
+          <img
+            src="https://i.pinimg.com/736x/22/bc/8e/22bc8ebef610eb881071e1a7007a7a80.jpg"
+            class="w-full"
+          />
+          <div
+            class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+          >
+            <a href="#slide4" class="btn btn-circle">❮</a>
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide2" class="carousel-item relative w-full h-[600px]">
+          <img
+            src="https://i.pinimg.com/736x/4d/c4/6d/4dc46d4b3dd1cd8c952646f09e7aed79.jpg"
+            class="w-full"
+          />
+          <div
+            class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+          >
+            <a href="#slide1" class="btn btn-circle">❮</a>
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide3" class="carousel-item relative w-full h-[600px]">
+          <img
+            src="https://i.pinimg.com/736x/68/aa/61/68aa613db13accf414562a2ec1fd72d7.jpg"
+            class="w-full"
+          />
+          <div
+            class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+          >
+            <a href="#slide2" class="btn btn-circle">❮</a>
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide4" class="carousel-item relative w-full h-[600px]">
+          <img
+            src="https://i.pinimg.com/736x/a2/8c/6e/a28c6ef8f3b2a5c04f98ae726b7cadd8.jpg"
+            class="w-full"
+          />
+          <div
+            class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+          >
+            <a href="#slide3" class="btn btn-circle">❮</a>
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+
+      <section>
+        <div class="container mx-auto my-10">
+          <div
+            class="grid lg:grid-cols-2 items-center w-full max-w-7xl mx-auto px-16 gap-16"
+          >
+            <!-- Left -->
+            <div class="flex-1">
+              <img
                 src="https://avatars.githubusercontent.com/u/109524293?v=4"
                 class="w-full h-auto rounded-lg shadow-md"
-            />
+              />
+            </div>
+
+            <!-- Right -->
+            <div>
+              <h1 class="text-6xl font-bold mb-6">About Me</h1>
+
+              <p class="text-lg leading-8 mb-8">
+                I am a web developer passionate about creating responsive and
+                user-friendly websites. I enjoy learning new technologies and
+                turning ideas into real-world applications.
+              </p>
+
+              <button class="btn btn-primary">Download CV</button>
+            </div>
+          </div>
         </div>
+      </section>
 
-        <!-- Right -->
-        <div>
-            <h1 class="text-6xl font-bold mb-6">
-                About Me
-            </h1>
-
-            <p class="text-lg leading-8 mb-8">
-                I am a web developer passionate about creating responsive
-                and user-friendly websites. I enjoy learning new technologies
-                and turning ideas into real-world applications.
-            </p>
-
-            <button class="btn btn-primary">
-                Download CV
-            </button>
-        </div>
-
-    </div>
-</div>
- </section>
-
- <section class="bg-base-200 py-20">
-    <div class="container mx-auto px-6">
-
-        <!-- Section Title -->
-        <div class="text-center mb-12">
+      <section class="bg-slate-900/70 py-20">
+        <div class="container mx-auto px-6">
+          <!-- Section Title -->
+          <div class="text-center mb-12">
             <h2 class="text-5xl font-bold">Mission & Vision</h2>
             <p class="mt-4 text-lg">
-                My purpose as a developer and the future I aspire to create.
+              My purpose as a developer and the future I aspire to create.
             </p>
-        </div>
+          </div>
 
-        <!-- Cards -->
-        <div class="grid md:grid-cols-2 gap-8">
-
+          <!-- Cards -->
+          <div class="grid md:grid-cols-2 gap-8">
             <!-- Mission Card -->
-            <div class="card bg-base-100 shadow-xl">
-                <div class="card-body">
-                    <h3 class="card-title text-3xl">
-                        🚀 My Mission
-                    </h3>
+            <div class="card bg-slate-900/70 shadow-xl ">
+              <div class="card-body">
+                <h3 class="card-title text-3xl text-white">My Mission</h3>
 
-                    <p class="text-lg leading-8">
-                        To build responsive, accessible, and user-friendly
-                        digital experiences that solve real-world problems.
-                        I strive to continuously improve my skills and deliver
-                        high-quality solutions through creativity and innovation.
-                    </p>
-                </div>
+                <p class="text-lg leading-8">
+                  To build responsive, accessible, and user-friendly digital
+                  experiences that solve real-world problems. I strive to
+                  continuously improve my skills and deliver high-quality
+                  solutions through creativity and innovation.
+                </p>
+              </div>
             </div>
 
             <!-- Vision Card -->
-            <div class="card bg-base-100 shadow-xl">
-                <div class="card-body">
-                    <h3 class="card-title text-3xl">
-                        🌟 My Vision
-                    </h3>
+            <div class="card bg-slate-900/70 shadow-xl">
+              <div class="card-body">
+                <h3 class="card-title text-3xl text-white">My Vision</h3>
 
-                    <p class="text-lg leading-8">
-                        To become a skilled full-stack developer who creates
-                        impactful technology that improves people's lives while
-                        contributing to the growth of the tech community through
-                        learning, collaboration, and mentorship.
-                    </p>
-                </div>
+                <p class="text-lg leading-8">
+                  To become a skilled full-stack developer who creates impactful
+                  technology that improves people's lives while contributing to
+                  the growth of the tech community through learning,
+                  collaboration, and mentorship.
+                </p>
+              </div>
             </div>
-
+          </div>
         </div>
+      </section>
 
-    </div>
-</section>
-
-<section id="services" class="py-20">
-    <div class="container mx-auto px-6">
-
-        <!-- Section Title -->
-        <div class="text-center mb-12">
+      <section id="services" class="py-20">
+        <div class="container mx-auto px-6">
+          <!-- Section Title -->
+          <div class="text-center mb-12">
             <h2 class="text-5xl font-bold">My Services</h2>
-            <p class="mt-4 text-lg">
-                Here are some of the services I provide.
-            </p>
-        </div>
+            <p class="mt-4 text-lg">Here are some of the services I provide.</p>
+          </div>
 
-        <!-- Services Cards -->
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-
+          <!-- Services Cards -->
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <!-- Web Development -->
-            <div class="card bg-base-100 shadow-md">
-                <div class="card-body">
-                    <h3 class="card-title text-2xl">
-                        💻 Web Development
-                    </h3>
-                    <p>
-                        Building responsive and user-friendly websites using
-                        HTML, CSS, JavaScript, and modern frameworks.
-                    </p>
-                </div>
+            <div class="card bg-slate-900/70 shadow-md">
+              <div class="card-body">
+                <h3 class="card-title text-2xl">Web Development</h3>
+                <p>
+                  Building responsive and user-friendly websites using HTML,
+                  CSS, JavaScript, and modern frameworks.
+                </p>
+              </div>
             </div>
 
             <!-- UI/UX Design -->
-            <div class="card bg-base-100 shadow-md">
-                <div class="card-body">
-                    <h3 class="card-title text-2xl">
-                        🎨 UI/UX Design
-                    </h3>
-                    <p>
-                        Designing clean and intuitive interfaces that enhance
-                        user experience and accessibility.
-                    </p>
-                </div>
+            <div class="card bg-slate-900/70 shadow-md">
+              <div class="card-body">
+                <h3 class="card-title text-2xl">UI/UX Design</h3>
+                <p>
+                  Designing clean and intuitive interfaces that enhance user
+                  experience and accessibility.
+                </p>
+              </div>
             </div>
 
             <!-- Graphic Design -->
-            <div class="card bg-base-100 shadow-md">
-                <div class="card-body">
-                    <h3 class="card-title text-2xl">
-                        🖌️ Graphic Design
-                    </h3>
-                    <p>
-                        Creating visually appealing posters, social media
-                        content, and branding materials.
-                    </p>
-                </div>
+            <div class="card bg-slate-900/70 shadow-md">
+              <div class="card-body">
+                <h3 class="card-title text-2xl">Graphic Design</h3>
+                <p>
+                  Creating visually appealing posters, social media content, and
+                  branding materials.
+                </p>
+              </div>
             </div>
-
+          </div>
         </div>
+      </section>
 
-    </div>
-</section>
-
-<section class="bg-base-200 py-20">
-    <div class="container mx-auto px-6">
-
-        <!-- Section Title -->
-        <div class="text-center mb-12">
+      <section class="bg-slate-900/70 py-20">
+        <div class="container mx-auto px-6">
+          <!-- Section Title -->
+          <div class="text-center mb-12">
             <h2 class="text-5xl font-bold">Client Feedback</h2>
-            <p class="mt-4 text-lg">
-                What my clients say about my work.
-            </p>
-        </div>
+            <p class="mt-4 text-lg">What my clients say about my work.</p>
+          </div>
 
-        <!-- Testimonials -->
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-
+          <!-- Testimonials -->
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <!-- Testimonial 1 -->
-            <div class="card bg-base-100 shadow-md">
-                <div class="card-body">
-                    <p>
-                        "Faiza delivered exactly what I needed. The website was
-                        responsive, modern, and completed on time."
-                    </p>
+            <div class="card bg-slate-900/70 shadow-md">
+              <div class="card-body">
+                <p>
+                  "Faiza delivered exactly what I needed. The website was
+                  responsive, modern, and completed on time."
+                </p>
 
-                    <div class="mt-4">
-                        <h3 class="font-bold">Sarah Ahmed</h3>
-                        <p class="text-sm opacity-70">Business Owner</p>
-                    </div>
+                <div class="mt-4">
+                  <h3 class="font-bold">Sarah Ahmed</h3>
+                  <p class="text-sm opacity-70">Business Owner</p>
                 </div>
+              </div>
             </div>
 
             <!-- Testimonial 2 -->
-            <div class="card bg-base-100 shadow-md">
-                <div class="card-body">
-                    <p>
-                        "Very professional and easy to work with. The design
-                        was clean and user-friendly."
-                    </p>
+            <div class="card bg-slate-900/70 shadow-md">
+              <div class="card-body">
+                <p>
+                  "Very professional and easy to work with. The design was clean
+                  and user-friendly."
+                </p>
 
-                    <div class="mt-4">
-                        <h3 class="font-bold">John Smith</h3>
-                        <p class="text-sm opacity-70">Startup Founder</p>
-                    </div>
+                <div class="mt-4">
+                  <h3 class="font-bold">John Smith</h3>
+                  <p class="text-sm opacity-70">Startup Founder</p>
                 </div>
+              </div>
             </div>
 
             <!-- Testimonial 3 -->
-            <div class="card bg-base-100 shadow-md">
-                <div class="card-body">
-                    <p>
-                        "Excellent communication and attention to detail.
-                        Highly recommended for web projects."
-                    </p>
+            <div class="card bg-slate-900/70 shadow-md">
+              <div class="card-body">
+                <p>
+                  "Excellent communication and attention to detail. Highly
+                  recommended for web projects."
+                </p>
 
-                    <div class="mt-4">
-                        <h3 class="font-bold">Emily Johnson</h3>
-                        <p class="text-sm opacity-70">Marketing Manager</p>
-                    </div>
+                <div class="mt-4">
+                  <h3 class="font-bold">Emily Johnson</h3>
+                  <p class="text-sm opacity-70">Marketing Manager</p>
                 </div>
+              </div>
             </div>
-
+          </div>
         </div>
-
-    </div>
-</section>
-  </main>
+      </section>
+    </main>
     <footer></footer>
-</body>
+  </body>
 </html>
