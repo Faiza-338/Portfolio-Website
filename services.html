@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Services</title>
 </head>
 
@@ -144,56 +145,37 @@
                     <h2 class="text-5xl font-bold text-white mt-3">Questions & Answers</h2>
                 </div>
 
-
-                <div class="space-y-6">
-                    <div class="bg-slate-900 p-6 rounded-2xl border border-blue-500/30 ">
-
-
-
-
-
-                        <h3 class="font-bold text-white mt-3">1. Do you design websites?</h3>
-                        <p class="text-slate-300 text-sm">Yes, I can design simple, modern and responsive portfolio or business websites.</p>
+                <div class=" space-y-4 ">
+                    <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+                        <input type="radio" name="my-accordion-2" checked="checked" />
+                        <div class="collapse-title font-semibold">How do I create an account?</div>
+                        <div class="collapse-content text-sm">Click the "Sign Up" button in the top right corner and
+                            follow
+                            the registration process.</div>
                     </div>
-
-
-                    <div class="bg-slate-900 p-6 rounded-2xl border border-blue-500/30 ">
-
-                        <h3 class="font-bold text-white mt-3">2. Do you work with Figma?</h3>
-                        <p class="text-slate-300 text-sm">Yes, I use Figma for UI/UX design and app screen planning.</p>
+                    <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title font-semibold">I forgot my password. What should I do?</div>
+                        <div class="collapse-content text-sm">Click on "Forgot Password" on the login page and follow
+                            the
+                            instructions sent to your email.</div>
                     </div>
-
-
-
-                    <div class="bg-slate-900 p-6 rounded-2xl border border-blue-500/30 ">
-
-                        <h3 class="font-bold text-white mt-3">3. Can you create mobile app UI?</h3>
-                        <p class="text-slate-300 text-sm">Yes, I have Flutter and UI/UX experience from multiple student projects.</p>
+                    <div class="collapse collapse-arrow bg-base-100 border border-base-300">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title font-semibold">How do I update my profile information?</div>
+                        <div class="collapse-content text-sm">Go to "My Account" settings and select "Edit Profile" to
+                            make
+                            changes.</div>
                     </div>
-
-                    <div class="bg-slate-900 p-6 rounded-2xl border border-blue-500/30 ">
-
-                        <h3 class="font-bold text-white mt-3">4. Do you do graphic design?</h3>
-                        <p class="text-slate-300 text-sm">Yes, I create banners, posters, certificates and promotional designs.</p>
-                    </div>
-
-                    <div class="bg-slate-900 p-6 rounded-2xl border border-blue-500/30 ">
-
-                        <h3 class="font-bold text-white mt-3">5. How can clients contact you?</h3>
-                        <p class="text-slate-300 text-sm">They can use the contact page with email, phone, address and message form.</p>
-                    </div>
-                    
-
                 </div>
             </div>
         </section>
 
-<footer class="bg-slate-900/70 text-slate-300 py-6">
-      <div class="max-w-7xl mx-auto px-6 text-center">
-        <p>&copy; 2026 Faiza Khandoker Fama. All rights reserved.</p>
-      </div>
-    </footer>
-
+        <footer class="bg-black border-t border-blue-500/30 py-8 text-center text-slate-400">
+            <p>© 2026 Faiza Khandoker Fama. All Rights Reserved.</p>
+            <p id="live-datetime" class="mt-3 text-sm text-blue-400 font-mono"></p>
+        </footer>
+        <script src="script.js"></script>
     </body>
 
 </html>
