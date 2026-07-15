@@ -16,8 +16,6 @@ I am building this site iteratively. Here is the current progress of the project
 ### ✅ Completed
 * **Homepage:** A clean, welcoming landing page that introduces who I am and sets the tone for the website.
 * **About Me Page:** A deeper dive into my background, my education, and the technical and creative skills I bring to the table.
-
-### 🚧 Up Next (To-Do)
 * **Portfolio Page:** A dedicated gallery to showcase my software development projects and design work with links to live demos and repositories.
 * **Blog Page:** A space where I plan to share technical write-ups, project insights, and personal experiences in tech and design.
 * **Contact Me Page:** A functional contact form and links to my social profiles to make it easy for visitors to reach out.
