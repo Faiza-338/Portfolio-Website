@@ -1,272 +1,43 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link
-      href="https://cdn.jsdelivr.net/npm/daisyui@5"
-      rel="stylesheet"
-      type="text/css"
-    />
-
-    <link rel="stylesheet" href="style.css" />
-
-    <title>My Portfolio</title>
-  </head>
-  <body class="bg-slate-950 text-slate-200">
-    <nav
-      class="sticky top-0 z-50 text-slate-200 glass border-b border-blue-500/30"
-    >
-      <div
-        class="flex flex-col md:flex-row max-w-7xl mx-auto items-center justify-between gap-4 px-6 py-4"
-      >
-        <a href="index.html" class="text-2xl font-extrabold">Faiza</a>
-        <div class="flex flex-wrap justify-center gap-5 text-sm font-semibold">
-          <a href="index.html" class="hover:text-blue-400">Home</a>
-          <a href="about.html" class="hover:text-blue-400">About</a>
-          <a href="portfolio.html" class="hover:text-blue-400">Portfolio</a>
-          <a href="services.html" class="hover:text-blue-400">Services</a>
-          <a href="contact.html" class="hover:text-blue-400">Contact</a>
-        </div>
-      </div>
-    </nav>
-
-  
-
-    <main>
-      <div class="carousel w-full">
-        <div id="slide1" class="carousel-item relative w-full h-[600px]">
-          <img
-            src="https://i.pinimg.com/736x/22/bc/8e/22bc8ebef610eb881071e1a7007a7a80.jpg"
-            class="w-full"
-          />
-          <div
-            class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
-          >
-            <a href="#slide4" class="btn btn-circle">❮</a>
-            <a href="#slide2" class="btn btn-circle">❯</a>
-          </div>
-        </div>
-        <div id="slide2" class="carousel-item relative w-full h-[600px]">
-          <img
-            src="https://i.pinimg.com/736x/4d/c4/6d/4dc46d4b3dd1cd8c952646f09e7aed79.jpg"
-            class="w-full"
-          />
-          <div
-            class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
-          >
-            <a href="#slide1" class="btn btn-circle">❮</a>
-            <a href="#slide3" class="btn btn-circle">❯</a>
-          </div>
-        </div>
-        <div id="slide3" class="carousel-item relative w-full h-[600px]">
-          <img
-            src="https://i.pinimg.com/736x/68/aa/61/68aa613db13accf414562a2ec1fd72d7.jpg"
-            class="w-full"
-          />
-          <div
-            class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
-          >
-            <a href="#slide2" class="btn btn-circle">❮</a>
-            <a href="#slide4" class="btn btn-circle">❯</a>
-          </div>
-        </div>
-        <div id="slide4" class="carousel-item relative w-full h-[600px]">
-          <img
-            src="https://i.pinimg.com/736x/a2/8c/6e/a28c6ef8f3b2a5c04f98ae726b7cadd8.jpg"
-            class="w-full"
-          />
-          <div
-            class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
-          >
-            <a href="#slide3" class="btn btn-circle">❮</a>
-            <a href="#slide1" class="btn btn-circle">❯</a>
-          </div>
-        </div>
-      </div>
-
-      <section>
-        <div class="container mx-auto my-10">
-          <div
-            class="grid lg:grid-cols-2 items-center w-full max-w-7xl mx-auto px-16 gap-16"
-          >
-            <!-- Left -->
-            <div class="flex-1">
-              <img
-                src="https://avatars.githubusercontent.com/u/109524293?v=4"
-                class="w-full h-auto rounded-lg shadow-md"
-              />
-            </div>
-
-            <!-- Right -->
-            <div>
-              <h1 class="text-6xl font-bold mb-6">About Me</h1>
-
-              <p class="text-lg leading-8 mb-8">
-                I am a web developer passionate about creating responsive and
-                user-friendly websites. I enjoy learning new technologies and
-                turning ideas into real-world applications.
-              </p>
-
-              
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="bg-slate-900/70 py-20">
-        <div class="container mx-auto px-6">
-          <!-- Section Title -->
-          <div class="text-center mb-12">
-            <h2 class="text-5xl font-bold">Mission & Vision</h2>
-            <p class="mt-4 text-lg">
-              My purpose as a developer and the future I aspire to create.
-            </p>
-          </div>
-
-          <!-- Cards -->
-          <div class="grid md:grid-cols-2 gap-8">
-            <!-- Mission Card -->
-            <div class="card bg-slate-900/70 shadow-xl ">
-              <div class="card-body">
-                <h3 class="card-title text-3xl text-white">My Mission</h3>
-
-                <p class="text-lg leading-8">
-                  To build responsive, accessible, and user-friendly digital
-                  experiences that solve real-world problems. I strive to
-                  continuously improve my skills and deliver high-quality
-                  solutions through creativity and innovation.
-                </p>
-              </div>
-            </div>
-
-            <!-- Vision Card -->
-            <div class="card bg-slate-900/70 shadow-xl">
-              <div class="card-body">
-                <h3 class="card-title text-3xl text-white">My Vision</h3>
-
-                <p class="text-lg leading-8">
-                  To become a skilled full-stack developer who creates impactful
-                  technology that improves people's lives while contributing to
-                  the growth of the tech community through learning,
-                  collaboration, and mentorship.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="services" class="py-20">
-        <div class="container mx-auto px-6">
-          <!-- Section Title -->
-          <div class="text-center mb-12">
-            <h2 class="text-5xl font-bold">My Services</h2>
-            <p class="mt-4 text-lg">Here are some of the services I provide.</p>
-          </div>
-
-          <!-- Services Cards -->
-          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <!-- Web Development -->
-            <div class="card bg-slate-900/70 shadow-md">
-              <div class="card-body">
-                <h3 class="card-title text-2xl">Web Development</h3>
-                <p>
-                  Building responsive and user-friendly websites using HTML,
-                  CSS, JavaScript, and modern frameworks.
-                </p>
-              </div>
-            </div>
-
-            <!-- UI/UX Design -->
-            <div class="card bg-slate-900/70 shadow-md">
-              <div class="card-body">
-                <h3 class="card-title text-2xl">UI/UX Design</h3>
-                <p>
-                  Designing clean and intuitive interfaces that enhance user
-                  experience and accessibility.
-                </p>
-              </div>
-            </div>
-
-            <!-- Graphic Design -->
-            <div class="card bg-slate-900/70 shadow-md">
-              <div class="card-body">
-                <h3 class="card-title text-2xl">Graphic Design</h3>
-                <p>
-                  Creating visually appealing posters, social media content, and
-                  branding materials.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="bg-slate-900/70 py-20">
-        <div class="container mx-auto px-6">
-          <!-- Section Title -->
-          <div class="text-center mb-12">
-            <h2 class="text-5xl font-bold">Client Feedback</h2>
-            <p class="mt-4 text-lg">What my clients say about my work.</p>
-          </div>
-
-          <!-- Testimonials -->
-          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <!-- Testimonial 1 -->
-            <div class="card bg-slate-900/70 shadow-md">
-              <div class="card-body">
-                <p>
-                  "Faiza delivered exactly what I needed. The website was
-                  responsive, modern, and completed on time."
-                </p>
-
-                <div class="mt-4">
-                  <h3 class="font-bold">Sarah Ahmed</h3>
-                  <p class="text-sm opacity-70">Business Owner</p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Testimonial 2 -->
-            <div class="card bg-slate-900/70 shadow-md">
-              <div class="card-body">
-                <p>
-                  "Very professional and easy to work with. The design was clean
-                  and user-friendly."
-                </p>
-
-                <div class="mt-4">
-                  <h3 class="font-bold">John Smith</h3>
-                  <p class="text-sm opacity-70">Startup Founder</p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Testimonial 3 -->
-            <div class="card bg-slate-900/70 shadow-md">
-              <div class="card-body">
-                <p>
-                  "Excellent communication and attention to detail. Highly
-                  recommended for web projects."
-                </p>
-
-                <div class="mt-4">
-                  <h3 class="font-bold">Emily Johnson</h3>
-                  <p class="text-sm opacity-70">Marketing Manager</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer
-      class="bg-black border-t border-blue-500/30 py-8 text-center text-slate-400"
-    >
-      <p>© 2026 Faiza Khandoker Fama. All Rights Reserved.</p>
-      <p id="live-datetime" class="mt-3 text-sm text-blue-400 font-mono"></p>
-    </footer>
-  </body>
-</html>
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Portfolio of Faiza Khandoker Fama — Software Engineer, AI developer and designer.">
+<title>Faiza Khandoker Fama — Software Engineer</title>
+<style>
+:root{--bg:#09090b;--panel:#111113;--text:#f4f4f5;--muted:#a1a1aa;--line:#27272a;--accent:#c4b5fd;--max:1120px}
+*{box-sizing:border-box;scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 75% 0%,rgba(124,58,237,.16),transparent 28rem),var(--bg);color:var(--text);font:16px/1.7 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}a{color:inherit;text-decoration:none}.wrap{width:min(var(--max),calc(100% - 40px));margin:auto}
+nav{position:sticky;top:0;z-index:20;background:rgba(9,9,11,.8);backdrop-filter:blur(18px);border-bottom:1px solid rgba(255,255,255,.07)}.nav{height:72px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:800;letter-spacing:-.03em}.links{display:flex;gap:25px;color:#d4d4d8;font-size:14px}.links a:hover{color:var(--accent)}
+.hero{min-height:calc(100vh - 72px);display:grid;align-items:center;padding:90px 0}.eyebrow,.kicker{color:var(--accent);font-size:12px;font-weight:800;letter-spacing:.16em;text-transform:uppercase}.hero h1{font-size:clamp(48px,8vw,92px);line-height:.98;letter-spacing:-.065em;margin:20px 0 28px;max-width:900px}.gradient{background:linear-gradient(110deg,#fff,#c4b5fd 60%,#a78bfa);-webkit-background-clip:text;background-clip:text;color:transparent}.lead{font-size:clamp(19px,2.2vw,25px);line-height:1.5;color:#d4d4d8;max-width:790px}.meta{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px;color:var(--muted);font-size:14px}.meta span{border:1px solid var(--line);border-radius:999px;padding:7px 13px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:34px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 18px;border-radius:10px;border:1px solid var(--line);font-weight:700;font-size:14px}.btn.primary{background:#f4f4f5;color:#09090b;border-color:#f4f4f5}
+section{padding:105px 0;border-top:1px solid rgba(255,255,255,.06)}.section-head{display:grid;grid-template-columns:260px 1fr;gap:45px;margin-bottom:48px}.section-head h2{font-size:clamp(34px,5vw,58px);line-height:1;letter-spacing:-.05em;margin:0}.section-head p{color:var(--muted);max-width:680px;margin:16px 0 0}
+.about-grid{display:grid;grid-template-columns:1.3fr .7fr;gap:50px}.about-copy{font-size:20px;color:#d4d4d8}.about-copy p{margin-top:0}.facts{display:grid;gap:12px}.fact,.card{background:linear-gradient(145deg,rgba(255,255,255,.045),rgba(255,255,255,.015));border:1px solid var(--line);border-radius:16px}.fact{padding:20px}.fact b{display:block}.fact span{color:var(--muted);font-size:14px}
+.skill-groups{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{padding:25px}.card h3{margin:0 0 15px;font-size:17px}.tags{display:flex;flex-wrap:wrap;gap:8px}.tag{font-size:13px;color:#d4d4d8;background:#18181b;border:1px solid #303035;padding:6px 9px;border-radius:7px}
+.timeline{display:grid}.job{display:grid;grid-template-columns:150px 1fr;gap:35px;padding:27px 0;border-top:1px solid var(--line)}.job:first-child{border-top:0}.date{color:var(--muted);font-size:14px}.job h3{margin:0;font-size:23px}.company{color:var(--accent);font-weight:700;margin:4px 0 12px}.job p{color:#c4c4c8;margin:0;max-width:780px}
+.projects{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.project{display:flex;flex-direction:column;min-height:270px}.project-num{color:#71717a;font:12px ui-monospace,SFMono-Regular,Menlo,monospace}.project h3{font-size:24px;letter-spacing:-.03em;margin:20px 0 9px}.project p{color:var(--muted);margin:0 0 18px}.stack{color:#d4d4d8;font-size:13px;margin-top:auto}.project-link{margin-top:16px;color:var(--accent);font-weight:700;font-size:14px}
+.beyond{display:grid;grid-template-columns:1fr 1fr;gap:18px}.beyond ul{padding:0;margin:0;list-style:none}.beyond li{padding:17px 0;border-bottom:1px solid var(--line);color:#d4d4d8}.beyond li:first-child{padding-top:0}
+.contact{display:grid;grid-template-columns:1fr auto;align-items:end;gap:30px}.contact h2{font-size:clamp(42px,6vw,72px);line-height:1;letter-spacing:-.06em;margin:12px 0}.contact p{color:var(--muted);max-width:600px}.contact-links{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end}footer{padding:30px 0;border-top:1px solid var(--line);color:#71717a;font-size:13px}.footer{display:flex;justify-content:space-between;gap:20px}
+@media(max-width:800px){.links{display:none}.section-head,.about-grid,.skill-groups,.projects,.beyond,.contact{grid-template-columns:1fr}.section-head{gap:18px}.job{grid-template-columns:1fr;gap:8px}.contact-links{justify-content:flex-start}.hero{padding:70px 0}.wrap{width:min(var(--max),calc(100% - 28px))}}
+</style>
+</head>
+<body>
+<nav><div class="wrap nav"><a class="brand" href="#top">Faiza Khandoker Fama</a><div class="links"><a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div></div></nav>
+<main id="top">
+<section class="hero"><div class="wrap"><div class="eyebrow">Software Engineer · AI · Product Design</div><h1>Software engineer with a <span class="gradient">designer's eye.</span></h1><p class="lead">I build full-stack and AI-powered products end to end — from LLM &amp; RAG pipelines to the interfaces people actually touch — grounded in a background in UI/UX and visual design.</p><div class="meta"><span>Dhaka, Bangladesh</span><span>Open to software &amp; frontend roles</span></div><div class="actions"><a class="btn primary" href="mailto:faizakhandoker2021@gmail.com">Let's talk ↗</a><a class="btn" href="https://github.com/Faiza-338" target="_blank" rel="noreferrer">GitHub ↗</a></div></div></section>
+<section id="about"><div class="wrap"><div class="section-head"><div class="kicker">01 / About</div><div><h2>Engineering with a product mindset.</h2><p>I care about both the system behind a product and the experience in front of it.</p></div></div><div class="about-grid"><div class="about-copy"><p>I'm a Computer Engineering graduate from Bangladesh University of Business &amp; Technology, currently working as a Junior Software Engineer at Logical Triangle Ltd., where I integrate LLM APIs and RAG pipelines and ship React/Node.js features.</p><p>I got here through frontend and product design — I still design in Figma before I build — so I care as much about how an interface feels as how the system behind it performs.</p><p>I'm looking for roles where I can apply that hybrid of engineering and design craft.</p></div><div class="facts"><div class="fact"><b>Current</b><span>Junior Software Engineer · Logical Triangle Ltd.</span></div><div class="fact"><b>Focus</b><span>LLMs, RAG, React, Node.js, Python</span></div><div class="fact"><b>Background</b><span>Computer Engineering · BUBT</span></div></div></div></div></section>
+<section id="skills"><div class="wrap"><div class="section-head"><div class="kicker">02 / Skills</div><div><h2>What I work with.</h2><p>A practical mix of engineering, AI, data, infrastructure and visual design.</p></div></div><div class="skill-groups"><div class="card"><h3>Engineering &amp; AI</h3><div class="tags"><span class="tag">Python</span><span class="tag">JavaScript</span><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">Flutter</span><span class="tag">C / C++</span><span class="tag">LLM APIs</span><span class="tag">RAG</span><span class="tag">LangChain</span><span class="tag">PyTorch</span><span class="tag">TensorFlow</span><span class="tag">Scikit-learn</span></div></div><div class="card"><h3>Data &amp; Infrastructure</h3><div class="tags"><span class="tag">MongoDB</span><span class="tag">Firebase</span><span class="tag">MySQL</span><span class="tag">Pinecone</span><span class="tag">AWS</span><span class="tag">Git / GitHub</span><span class="tag">Pandas</span><span class="tag">NumPy</span></div></div><div class="card"><h3>Design &amp; Frontend</h3><div class="tags"><span class="tag">Figma</span><span class="tag">Tailwind CSS</span><span class="tag">HTML / CSS</span><span class="tag">Adobe Illustrator</span><span class="tag">Adobe Photoshop</span><span class="tag">Canva</span></div></div></div></div></section>
+<section id="experience"><div class="wrap"><div class="section-head"><div class="kicker">03 / Experience</div><div><h2>Where I've worked.</h2><p>Engineering, AI-assisted development and visual design across software and product work.</p></div></div><div class="timeline"><div class="job"><div class="date">2026 — Present</div><div><h3>Junior Software Engineer</h3><div class="company">Logical Triangle Ltd.</div><p>Architect and integrate LLM APIs and RAG pipelines in Python, and accelerate React/Node.js feature delivery by translating Figma prototypes into responsive, production interfaces.</p></div></div><div class="job"><div class="date">2025 — Present</div><div><h3>Graphic Designer</h3><div class="company">AppUpNext</div><p>Visual design work alongside engineering — bridging brand and product design.</p></div></div><div class="job"><div class="date">2024 — 2025</div><div><h3>Software Engineering Intern</h3><div class="company">Logical Triangle Ltd.</div><p>Streamlined QA with AI-assisted script generation, and supported data preprocessing and model evaluation for early ML projects using Pandas, NumPy and Scikit-learn.</p></div></div></div></div></section>
+<section id="projects"><div class="wrap"><div class="section-head"><div class="kicker">04 / Projects</div><div><h2>Selected work.</h2><p>A mix of production-minded software, AI research and design-led builds.</p></div></div><div class="projects">
+<article class="card project"><div class="project-num">01</div><h3>Personal Portfolio</h3><p>Responsive portfolio built from scratch with a completed homepage, about page, portfolio and contact sections.</p><div class="stack">HTML · CSS · JavaScript · Tailwind CSS</div><a class="project-link" href="https://github.com/Faiza-338/Portfolio-Website" target="_blank" rel="noreferrer">View on GitHub →</a></article>
+<article class="card project"><div class="project-num">02</div><h3>Aurora</h3><p>A cinematic restaurant landing page with smooth animations and dynamic text effects.</p><div class="stack">HTML · CSS · JavaScript</div><a class="project-link" href="https://github.com/Faiza-338/Aurora" target="_blank" rel="noreferrer">View on GitHub →</a></article>
+<article class="card project"><div class="project-num">03</div><h3>Crop Disease Detection</h3><p>Two-stage EfficientNetB0 pipeline for plant disease classification and severity estimation — 99.4% accuracy on PlantVillage, 78.4% on Cassava.</p><div class="stack">PyTorch · Computer Vision</div><a class="project-link" href="https://github.com/Faiza-338/EfficientNetB0-Based-Crop-Disease-Detection-and-Severity-Estimation" target="_blank" rel="noreferrer">View on GitHub →</a></article>
+<article class="card project"><div class="project-num">04</div><h3>Instrument Classification</h3><p>Attention-based LSTM model classifying musical instruments from audio clips on the OpenMIC-2018 dataset.</p><div class="stack">PyTorch · Audio ML</div><a class="project-link" href="https://github.com/Faiza-338/Attention-Based-LSTM-for-Multi-Label-Instrument-Classification-on-OpenMIC-2018-Dataset" target="_blank" rel="noreferrer">View on GitHub →</a></article>
+<article class="card project"><div class="project-num">05</div><h3>NotePad</h3><p>Full-stack notes app with create, edit and delete, syncing in real time through Firebase Firestore.</p><div class="stack">React · Node.js · Firebase</div><a class="project-link" href="https://github.com/Faiza-338/NotePad" target="_blank" rel="noreferrer">View on GitHub →</a></article>
+<article class="card project"><div class="project-num">06</div><h3>Cafe Card</h3><p>UI/UX design and Flutter build of a digital café loyalty card, with points tracking and reward redemption.</p><div class="stack">Figma · Flutter</div></article>
+<article class="card project"><div class="project-num">07</div><h3>Cloud Vault</h3><p>Secure cloud storage web app for uploading and managing files, now being extended into a Flutter mobile app.</p><div class="stack">Next.js · Flutter</div></article>
+<article class="card project"><div class="project-num">08</div><h3>Real-Time Chat App</h3><p>Responsive chat application with instant messaging and efficient server-side message handling.</p><div class="stack">JavaScript · PHP · CSS</div></article>
+</div></div></section>
+<section><div class="wrap"><div class="section-head"><div class="kicker">05 / Beyond code</div><div><h2>Creative work matters too.</h2><p>Engineering is one side of my work. Design, art and community involvement shape how I approach products.</p></div></div><div class="beyond"><div class="card"><ul><li>Graphics Co-Ordinator, IEEE Systems Council — BUBT Student Branch Chapter</li><li>Public Relations Co-Ordinator, IEEE BUBT WIE Student Branch Affinity Group</li></ul></div><div class="card"><ul><li>Professional artist and online business owner, selling original artwork under a personal brand</li><li>Award-winning painter — first-prize wins at Joynul Abedin Shongrohoshala and a national logo contest</li></ul></div></div></div></section>
+<section id="contact"><div class="wrap contact"><div><div class="kicker">06 / Let's talk</div><h2>Have a product to build?</h2><p>Open to software engineering and frontend roles where engineering rigor and design craft both matter.</p></div><div class="contact-links"><a class="btn primary" href="mailto:faizakhandoker2021@gmail.com">Email me</a><a class="btn" href="https://github.com/Faiza-338" target="_blank" rel="noreferrer">GitHub</a><a class="btn" href="tel:+8801768645266">+880 1768645266</a></div></div></section>
+</main>
+<footer><div class="wrap footer"><span>© 2026 Faiza Khandoker Fama</span><span>Dhaka, Bangladesh</span></div></footer>
+</body></html>
