@@ -375,7 +375,7 @@ section {
 .beyond li {
   padding: 17px 0;
   border-bottom: 1px solid var(--line);
-  color: #000000;
+  color: var(--muted);
 }
 
 .beyond li:first-child {
