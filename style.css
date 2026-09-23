@@ -375,7 +375,7 @@ section {
 .beyond li {
   padding: 17px 0;
   border-bottom: 1px solid var(--line);
-  color: #d4d4d8;
+  color: #000000;
 }
 
 .beyond li:first-child {
@@ -693,14 +693,4 @@ footer {
   .links {
     display: none;
   }
-}
-
-.about-copy,
-.beyond li,
-.stack {
-  color: var(--muted);
-}
-
-.beyond li {
-  border-bottom-color: var(--line);
 }
