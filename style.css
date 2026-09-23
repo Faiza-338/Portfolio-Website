@@ -219,7 +219,7 @@ section {
 
 .about-copy {
   font-size: 20px;
-  color: #d4d4d8;
+  color: var(--muted);
 }
 
 .about-copy p {
@@ -348,7 +348,7 @@ section {
 }
 
 .stack {
-  color: #d4d4d8;
+  color: var(--muted);
   font-size: 13px;
   margin-top: auto;
 }
