@@ -17,9 +17,6 @@ body {
 .blue-glow {
   box-shadow: 0 0 35px rgba(59, 130, 246, 0.25);
 }
-.card {
-  color: black;
-}
 .card-hover {
   transition: all 0.3s ease;
 }
@@ -640,6 +637,7 @@ section {
 .card {
   background: #fff;
   border-color: var(--line);
+  color: black;
 }
 
 .tag {
